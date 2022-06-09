@@ -19,8 +19,6 @@ import StarIcon from '@mui/icons-material/Star';
 import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 
-import { BottomNavigationMenu } from './BottomNavigationMenu';
-
 
 const drawerWidth = 240;
 
@@ -182,7 +180,6 @@ export default function ResponsiveDrawer( props ) {
           sapien faucibus et molestie ac.
         </Typography>
         </Box>
-      <BottomNavigationMenu />
     </Box>
   );
 }
